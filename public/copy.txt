@@ -1,0 +1,17 @@
+recipes.map(recipe => (
+          <Nutrients 
+            totalNutrients = {recipe.recipe.totalNutrients}
+            title={recipe.recipe.label}
+            onRouteChange = {onRouteChange}/>
+
+( recipes.map((recipe,key) => (
+          <Recipe
+            key={recipe.recipe.calories}
+            title={recipe.recipe.label} 
+            image={recipe.recipe.image}
+            calories = {recipe.recipe.calories}
+            ingredients={recipe.recipe.ingredients}
+            onRouteChange = {onRouteChange}
+            /> 
+    ))
+        )            
