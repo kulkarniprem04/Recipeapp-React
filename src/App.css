@@ -2,7 +2,6 @@
   min-height: 100vh;
   background-image: url("Photos/lukas-blazek-f-TWhXOrLiU-unsplash.jpg");
   background-size: cover;
-  
 }
 
 .searchform {
@@ -34,6 +33,3 @@
   justify-content: space-around;
   flex-wrap: wrap;
 }
-
-
-
